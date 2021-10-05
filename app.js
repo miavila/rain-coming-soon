@@ -4,7 +4,7 @@ var temp = document.querySelector('.temp');
 var desc = document.querySelector('.desc');
 var desc2 = document.querySelector('.desc2');
 var button = document.querySelector('.submit');
-var apiKey = "c34a1885feb2bd31392fac5166e8d8db";
+var apiKey = "";
 
 button.addEventListener('click', function () {
   var url = 'https://api.openweathermap.org/data/2.5/weather?q=' + input.value + '&units=metric&lang=es&appid=' + apiKey;
